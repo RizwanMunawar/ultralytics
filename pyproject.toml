@@ -26,7 +26,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ultralytics"
 version = "0.0.1"
-dynamic = [version]
+dynamic = ["version"]
 description = "Ultralytics YOLO 🚀 for SOTA object detection, multi-object tracking, instance segmentation, pose estimation and image classification."
 readme = "README.md"
 requires-python = ">=3.8"
