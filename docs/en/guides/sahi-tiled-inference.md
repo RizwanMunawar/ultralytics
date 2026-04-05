@@ -123,7 +123,7 @@ Export and visualize the predicted bounding boxes and masks:
 from PIL import Image
 
 # Open the predicted image
-processed_image = Image.open('demo_data/prediction_visual.png')
+processed_image = Image.open("demo_data/prediction_visual.png")
 
 # Display the predicted image
 processed_image.show()
@@ -146,11 +146,11 @@ result = get_sliced_prediction(
     overlap_width_ratio=0.2,
 )
 
-# export results
-result.export_visuals(export_dir="demo_data/", hide_conf=True)  
+# Export results
+result.export_visuals(export_dir="demo_data/", hide_conf=True)
 
 # Open the predicted image
-processed_image = Image.open('demo_data/prediction_visual.png')
+processed_image = Image.open("demo_data/prediction_visual.png")
 
 # Display the predicted image
 processed_image.show()
@@ -261,7 +261,7 @@ from PIL import Image
 
 result.export_visuals(export_dir="demo_data/", hide_conf=True)
 
-processed_image = Image.open('demo_data/prediction_visual.png')
+processed_image = Image.open("demo_data/prediction_visual.png")
 
 processed_image.show()
 ```
