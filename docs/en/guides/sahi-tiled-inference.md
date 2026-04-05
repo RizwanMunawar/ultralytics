@@ -70,7 +70,7 @@ pip install -U ultralytics sahi
 
 ### Import Modules and Download Resources
 
-Here's how to import some test images:
+Here's how to download some test images:
 
 ```python
 from sahi.utils.file import download_from_url
@@ -105,7 +105,7 @@ detection_model = AutoDetectionModel.from_pretrained(
 
 ### Perform Standard Prediction
 
-Perform standard inference using an image path or a numpy image.
+Perform standard inference using an image path.
 
 ```python
 from sahi.predict import get_prediction
